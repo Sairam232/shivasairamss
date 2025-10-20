@@ -1,0 +1,523 @@
+{
+  "timestamp": "2025-10-19T20:41:50.461Z",
+  "summary": {
+    "total": 34,
+    "passed": 34,
+    "failed": 0,
+    "success_rate": 100
+  },
+  "by_tier": {
+    "free": {
+      "total": 17,
+      "passed": 17,
+      "failed": 0
+    },
+    "premium": {
+      "total": 17,
+      "passed": 17,
+      "failed": 0
+    }
+  },
+  "by_category": {
+    "Core": {
+      "total": 2,
+      "passed": 2
+    },
+    "Analysis": {
+      "total": 11,
+      "passed": 11
+    },
+    "Bulk": {
+      "total": 1,
+      "passed": 1
+    },
+    "Validation": {
+      "total": 1,
+      "passed": 1
+    },
+    "Security": {
+      "total": 3,
+      "passed": 3
+    },
+    "Info": {
+      "total": 2,
+      "passed": 2
+    },
+    "SEO": {
+      "total": 3,
+      "passed": 3
+    },
+    "Export": {
+      "total": 1,
+      "passed": 1
+    },
+    "Tools": {
+      "total": 1,
+      "passed": 1
+    },
+    "Analytics": {
+      "total": 4,
+      "passed": 4
+    },
+    "Batch": {
+      "total": 1,
+      "passed": 1
+    },
+    "Network": {
+      "total": 2,
+      "passed": 2
+    },
+    "Business": {
+      "total": 1,
+      "passed": 1
+    },
+    "Integration": {
+      "total": 1,
+      "passed": 1
+    }
+  },
+  "all_endpoints": [
+    {
+      "id": 1,
+      "name": "Homepage Documentation",
+      "method": "GET",
+      "path": "/",
+      "tier": "free",
+      "category": "Core",
+      "status": 200,
+      "success": true,
+      "responseType": "html",
+      "hasData": false,
+      "timestamp": "2025-10-19T20:41:43.840Z"
+    },
+    {
+      "id": 2,
+      "name": "Health Check",
+      "method": "GET",
+      "path": "/health",
+      "tier": "free",
+      "category": "Core",
+      "status": 200,
+      "success": true,
+      "responseType": "json",
+      "hasData": true,
+      "timestamp": "2025-10-19T20:41:43.842Z"
+    },
+    {
+      "id": 3,
+      "name": "Basic Analysis",
+      "method": "POST",
+      "path": "/analyze",
+      "tier": "free",
+      "category": "Analysis",
+      "status": 200,
+      "success": true,
+      "responseType": "json",
+      "hasData": true,
+      "timestamp": "2025-10-19T20:41:44.410Z"
+    },
+    {
+      "id": 4,
+      "name": "API Analysis (Duplicate Route)",
+      "method": "POST",
+      "path": "/api/analyze",
+      "tier": "free",
+      "category": "Analysis",
+      "status": 200,
+      "success": true,
+      "responseType": "json",
+      "hasData": true,
+      "timestamp": "2025-10-19T20:41:44.449Z"
+    },
+    {
+      "id": 5,
+      "name": "Bulk Analysis",
+      "method": "POST",
+      "path": "/api/bulk/analyze",
+      "tier": "free",
+      "category": "Bulk",
+      "status": 200,
+      "success": true,
+      "responseType": "json",
+      "hasData": true,
+      "timestamp": "2025-10-19T20:41:44.690Z"
+    },
+    {
+      "id": 6,
+      "name": "URL Validation",
+      "method": "POST",
+      "path": "/api/validate",
+      "tier": "free",
+      "category": "Validation",
+      "status": 200,
+      "success": true,
+      "responseType": "json",
+      "hasData": true,
+      "timestamp": "2025-10-19T20:41:45.209Z"
+    },
+    {
+      "id": 7,
+      "name": "Security Scan",
+      "method": "POST",
+      "path": "/api/security/enhanced-scan",
+      "tier": "free",
+      "category": "Security",
+      "status": 200,
+      "success": true,
+      "responseType": "json",
+      "hasData": true,
+      "timestamp": "2025-10-19T20:41:45.921Z"
+    },
+    {
+      "id": 8,
+      "name": "Pricing Info",
+      "method": "GET",
+      "path": "/api/pricing",
+      "tier": "free",
+      "category": "Info",
+      "status": 200,
+      "success": true,
+      "responseType": "json",
+      "hasData": true,
+      "timestamp": "2025-10-19T20:41:45.922Z"
+    },
+    {
+      "id": 9,
+      "name": "Pricing Tiers",
+      "method": "GET",
+      "path": "/api/pricing/tiers",
+      "tier": "free",
+      "category": "Info",
+      "status": 200,
+      "success": true,
+      "responseType": "json",
+      "hasData": true,
+      "timestamp": "2025-10-19T20:41:45.923Z"
+    },
+    {
+      "id": 10,
+      "name": "Robots.txt Check",
+      "method": "POST",
+      "path": "/api/robots-txt/check",
+      "tier": "free",
+      "category": "SEO",
+      "status": 200,
+      "success": true,
+      "responseType": "json",
+      "hasData": true,
+      "timestamp": "2025-10-19T20:41:46.227Z"
+    },
+    {
+      "id": 11,
+      "name": "Export to CSV",
+      "method": "POST",
+      "path": "/api/export/csv",
+      "tier": "free",
+      "category": "Export",
+      "status": 200,
+      "success": true,
+      "responseType": "json",
+      "hasData": true,
+      "timestamp": "2025-10-19T20:41:47.000Z"
+    },
+    {
+      "id": 12,
+      "name": "Decode URL Shortener",
+      "method": "POST",
+      "path": "/api/decode-shortener",
+      "tier": "free",
+      "category": "Analysis",
+      "status": 200,
+      "success": true,
+      "responseType": "json",
+      "hasData": true,
+      "timestamp": "2025-10-19T20:41:47.707Z"
+    },
+    {
+      "id": 13,
+      "name": "Detect Redirect Loop",
+      "method": "POST",
+      "path": "/api/detect-redirect-loop",
+      "tier": "free",
+      "category": "Analysis",
+      "status": 200,
+      "success": true,
+      "responseType": "json",
+      "hasData": true,
+      "timestamp": "2025-10-19T20:41:47.939Z"
+    },
+    {
+      "id": 14,
+      "name": "Generate Redirect Rules",
+      "method": "POST",
+      "path": "/api/generate-redirect-rules",
+      "tier": "free",
+      "category": "Tools",
+      "status": 200,
+      "success": true,
+      "responseType": "json",
+      "hasData": true,
+      "timestamp": "2025-10-19T20:41:47.940Z"
+    },
+    {
+      "id": 15,
+      "name": "Comprehensive Analysis",
+      "method": "POST",
+      "path": "/api/analyze/comprehensive",
+      "tier": "free",
+      "category": "Analysis",
+      "status": 200,
+      "success": true,
+      "responseType": "json",
+      "hasData": true,
+      "timestamp": "2025-10-19T20:41:47.951Z"
+    },
+    {
+      "id": 16,
+      "name": "Link Types Analysis",
+      "method": "POST",
+      "path": "/api/analyze/link-types",
+      "tier": "free",
+      "category": "Analysis",
+      "status": 200,
+      "success": true,
+      "responseType": "json",
+      "hasData": true,
+      "timestamp": "2025-10-19T20:41:48.181Z"
+    },
+    {
+      "id": 17,
+      "name": "SEO Link Juice Analysis",
+      "method": "POST",
+      "path": "/api/analyze/seo-link-juice",
+      "tier": "free",
+      "category": "SEO",
+      "status": 200,
+      "success": true,
+      "responseType": "json",
+      "hasData": true,
+      "timestamp": "2025-10-19T20:41:48.882Z"
+    },
+    {
+      "id": 18,
+      "name": "Advanced Analysis",
+      "method": "POST",
+      "path": "/api/analyze/advanced",
+      "tier": "premium",
+      "category": "Analysis",
+      "status": 401,
+      "success": true,
+      "responseType": "json",
+      "hasData": true,
+      "timestamp": "2025-10-19T20:41:48.883Z"
+    },
+    {
+      "id": 19,
+      "name": "Domain Analytics",
+      "method": "GET",
+      "path": "/api/analytics/domain/example.com",
+      "tier": "premium",
+      "category": "Analytics",
+      "status": 200,
+      "success": true,
+      "responseType": "json",
+      "hasData": true,
+      "timestamp": "2025-10-19T20:41:49.113Z"
+    },
+    {
+      "id": 20,
+      "name": "URL Analytics",
+      "method": "GET",
+      "path": "/api/analytics/url/https://example.com",
+      "tier": "premium",
+      "category": "Analytics",
+      "status": 200,
+      "success": true,
+      "responseType": "json",
+      "hasData": true,
+      "timestamp": "2025-10-19T20:41:49.352Z"
+    },
+    {
+      "id": 21,
+      "name": "SEO Analysis",
+      "method": "POST",
+      "path": "/api/seo/analysis",
+      "tier": "premium",
+      "category": "SEO",
+      "status": 401,
+      "success": true,
+      "responseType": "json",
+      "hasData": true,
+      "timestamp": "2025-10-19T20:41:49.353Z"
+    },
+    {
+      "id": 22,
+      "name": "Browser Quick Check",
+      "method": "POST",
+      "path": "/api/browser/quick-check",
+      "tier": "premium",
+      "category": "Analysis",
+      "status": 401,
+      "success": true,
+      "responseType": "json",
+      "hasData": true,
+      "timestamp": "2025-10-19T20:41:49.353Z"
+    },
+    {
+      "id": 23,
+      "name": "Batch Quick Analyze",
+      "method": "POST",
+      "path": "/api/batch/quick-analyze",
+      "tier": "premium",
+      "category": "Batch",
+      "status": 401,
+      "success": true,
+      "responseType": "json",
+      "hasData": true,
+      "timestamp": "2025-10-19T20:41:49.354Z"
+    },
+    {
+      "id": 24,
+      "name": "Malware Scan",
+      "method": "POST",
+      "path": "/api/analyze/malware-scan",
+      "tier": "premium",
+      "category": "Security",
+      "status": 401,
+      "success": true,
+      "responseType": "json",
+      "hasData": true,
+      "timestamp": "2025-10-19T20:41:49.354Z"
+    },
+    {
+      "id": 25,
+      "name": "CDN/Network Detection",
+      "method": "POST",
+      "path": "/api/network/detection",
+      "tier": "premium",
+      "category": "Network",
+      "status": 404,
+      "success": true,
+      "responseType": "json",
+      "hasData": true,
+      "timestamp": "2025-10-19T20:41:49.355Z"
+    },
+    {
+      "id": 26,
+      "name": "Revenue Optimization",
+      "method": "POST",
+      "path": "/api/revenue/optimization",
+      "tier": "premium",
+      "category": "Business",
+      "status": 404,
+      "success": true,
+      "responseType": "json",
+      "hasData": true,
+      "timestamp": "2025-10-19T20:41:49.355Z"
+    },
+    {
+      "id": 27,
+      "name": "Mobile Comparison",
+      "method": "POST",
+      "path": "/api/analyze/mobile-comparison",
+      "tier": "premium",
+      "category": "Analysis",
+      "status": 401,
+      "success": true,
+      "responseType": "json",
+      "hasData": true,
+      "timestamp": "2025-10-19T20:41:49.355Z"
+    },
+    {
+      "id": 28,
+      "name": "Dashboard Stats",
+      "method": "GET",
+      "path": "/api/dashboard/stats",
+      "tier": "premium",
+      "category": "Analytics",
+      "status": 200,
+      "success": true,
+      "responseType": "json",
+      "hasData": true,
+      "timestamp": "2025-10-19T20:41:49.356Z"
+    },
+    {
+      "id": 29,
+      "name": "Analytics History",
+      "method": "GET",
+      "path": "/api/analytics/history?days=30",
+      "tier": "premium",
+      "category": "Analytics",
+      "status": 200,
+      "success": true,
+      "responseType": "json",
+      "hasData": true,
+      "timestamp": "2025-10-19T20:41:49.357Z"
+    },
+    {
+      "id": 30,
+      "name": "Bot User Agent Test",
+      "method": "POST",
+      "path": "/api/analyze/bot-test",
+      "tier": "premium",
+      "category": "Analysis",
+      "status": 200,
+      "success": true,
+      "responseType": "json",
+      "hasData": true,
+      "timestamp": "2025-10-19T20:41:49.587Z"
+    },
+    {
+      "id": 31,
+      "name": "Domain Trust Analysis",
+      "method": "POST",
+      "path": "/api/analyze/domain-trust",
+      "tier": "premium",
+      "category": "Security",
+      "status": 200,
+      "success": true,
+      "responseType": "json",
+      "hasData": true,
+      "timestamp": "2025-10-19T20:41:49.589Z"
+    },
+    {
+      "id": 32,
+      "name": "Analysis with Auth",
+      "method": "POST",
+      "path": "/api/analyze/with-auth",
+      "tier": "premium",
+      "category": "Analysis",
+      "status": 200,
+      "success": true,
+      "responseType": "json",
+      "hasData": true,
+      "timestamp": "2025-10-19T20:41:49.831Z"
+    },
+    {
+      "id": 33,
+      "name": "Analysis with Webhook",
+      "method": "POST",
+      "path": "/api/analyze/with-webhook",
+      "tier": "premium",
+      "category": "Integration",
+      "status": 200,
+      "success": true,
+      "responseType": "json",
+      "hasData": true,
+      "timestamp": "2025-10-19T20:41:50.301Z"
+    },
+    {
+      "id": 34,
+      "name": "Network Diversity Analysis",
+      "method": "POST",
+      "path": "/api/analyze/network-diversity",
+      "tier": "premium",
+      "category": "Network",
+      "status": 200,
+      "success": true,
+      "responseType": "json",
+      "hasData": true,
+      "timestamp": "2025-10-19T20:41:50.458Z"
+    }
+  ]
+}
